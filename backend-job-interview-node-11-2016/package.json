@@ -1,0 +1,15 @@
+{
+  "name": "downloader-in-order",
+  "version": "1.0.0",
+  "description": "Download and display 1000 urls in original order",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node test.js"
+  },
+  "author": "Ariel Biton",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.15.3"
+  }
+}
