@@ -1,0 +1,10 @@
+client
+
+1.1 read 1024 byte /dev/urandom
+1.2 filter non-utf8
+
+2. send data filtered to server (socket)
+
+server
+
+3. receive and print

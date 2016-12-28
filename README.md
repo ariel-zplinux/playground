@@ -2,7 +2,7 @@
 Contains job interview tasks, training and other random code
 
 ## backend-job-interview-10-2016
-Extract, agrregate and display data using MERN stack and Server Side Rendering
+Extract, aggregate and display data using MERN stack and Server Side Rendering
 
 See https://github.com/ariel-zplinux/data-extractor-mern
 
@@ -22,10 +22,18 @@ $ meteor
 ```
 
 ## backend-job-interview-11-2016
-Download and display content of 1000 urls in original order with NodeJs
+Download and display content of 1000 urls in original order with NodeJs.
 
 ```shell
 $ cd backend-job-interview-node-11-2016
 $ npm install 
 $ npm start
+```
+## ruby-dev-job-interview-07-2016
+Client-server transfer of random data with filtering in Ruby.
+
+```shell
+$ ruby server.rb
+then
+$ ruby client.rb
 ```
