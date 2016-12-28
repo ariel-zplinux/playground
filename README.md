@@ -1,6 +1,17 @@
 # playground
 Contains job interview tasks, training and other random code
 
+## backend-job-interview-10-2016
+Extract, agrregate and display data using MERN stack and Server Side Rendering
+See https://github.com/ariel-zplinux/data-extractor-mern
+
+```shell
+$ git clone https://github.com/ariel-zplinux/data-extractor-mern.git
+$ cd data-extractor-mern
+$ npm install
+$ npm run prepare && npm start```
+```
+
 ## fullstack-job-interview-09-2016
 Numbers sorter developed with Meteor.
 
