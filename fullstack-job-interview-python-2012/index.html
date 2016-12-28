@@ -1,0 +1,68 @@
+<!--
+   index.html
+   
+   Copyright 2012 Ariel Biton <ariel@zplinux>
+   
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation; either version 2 of the License, or
+   (at your option) any later version.
+   
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+   
+   You should have received a copy of the GNU General Public License
+   along with this program; if not, write to the Free Software
+   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+   MA 02110-1301, USA.
+   
+   
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<title>test</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="generator" content="Geany 1.22" />
+	<link rel="stylesheet" type="text/css" href="structure.css">
+    <script type="text/javascript" src="test_ror.js"></script>
+
+</head>
+
+<body>
+	
+	Change period (ajax)
+	<form name="form_period" action="index.html" method="get">
+		<input type="hidden" name="per_page" value="20">
+		<select name="period" onchange ="change_period()">
+			<!-- the first option is not used I don't know why -->
+			<option value="day">Choose period</option>
+			<option value="week">week</option>
+			<option value="month">month</option>
+			<option value="day">day</option>
+		</select>
+	</form>
+	<br>
+	Change period (without ajax)
+	<form name="form_period_withoutajax" action="index.html" method="get">
+		<input type="hidden" name="per_page" value="20">
+		<select name="period" onchange ="document.form_period_withoutajax.submit()">
+			<!-- the first option is not used I don't know why -->
+			<option value="day">Choose period</option>
+			<option value="week">week</option>
+			<option value="month">month</option>
+			<option value="day">day</option>
+		</select>
+	</form>
+	<table id="table_result">
+	    CONTENT
+	</table>
+    
+</body>
+
+</html>

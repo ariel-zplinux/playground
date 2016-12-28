@@ -33,7 +33,19 @@ $ npm start
 Client-server transfer of random data with filtering in Ruby.
 
 ```shell
+$ cd dev-job-interview-ruby-07-2016
 $ ruby server.rb
 then
 $ ruby client.rb
 ```
+
+## fullstack-job-interview-python-2012
+Minimal web server allowing to send a Html page, generated from a Html file and database (Mysql) content, through ajax call and "non-ajax" call.
+
+Developed in Python for a Ruby on rails job.
+
+```shell
+$ cd fullstack-job-interview-python-2012
+$ python test_ror.py
+```
+

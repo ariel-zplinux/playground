@@ -1,0 +1,5 @@
+1. fill database.conf
+2. in addition to python and mysql-server packages, python-mysqldb (debian name) must be installed
+3. it has been checked with Python 2.7.3rc2 (debian testing)
+4. to run it: 	python test_ror.py
+5. then open http://localhost:8000 in a web browser

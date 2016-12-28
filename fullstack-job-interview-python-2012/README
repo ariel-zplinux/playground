@@ -1,0 +1,38 @@
+This python solution is inspired by these references:
+	http://stackoverflow.com/questions/336866/how-to-implement-a-minimal-server-for-ajax-in-python
+	http://www.acmesystems.it/python_httpserver
+
+
+To transfer parameters, the ajax version is using POST while the non-ajax is using GET.
+
+Unicode in python is not working at this stage, I've prefered to focus on the ajax part.
+
+For the http status code, 404 (not found) is blue, all other status (error) are red
+
+It's a working version, not really a clean or an optimized one.
+I could (and probably will) make it cleaner, more stable and more optimized with more time.
+
+I've attached my original "work plan" document.
+
+List of files:
+
+	test_ror.py
+	test_ror.js
+	index.html
+	structure.css
+	database.conf
+	README
+	INSTALL
+	workplan.jpg
+
+To run it (in the directory where all files are):
+
+	python test_ror.py
+
+The port can be passed as an argument (ie: python test_ror.py 8080)
+Without argument it's 8000 per default. 
+
+
+After you can open http://localhost:8000 in a web browser.
+
+It has been checked with Python 2.7.3rc2 (Debian Testing).
